@@ -1,0 +1,136 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Condensed; 
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 8px -15px 7px #020819;
+}
+
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5 {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    
+}
+
+.nav-bar-ul{
+    padding: 14px;
+}
+
+.nav-bar-ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.imgBackground {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) ;
+    position: 0 0;
+    size: cover;
+    padding: 50px;    
+}
+
+header {
+    height: 700px;
+}
+
+.quote {
+    font-size: 2.5em;
+    line-height: 0.25em;
+    line-height: 1.5em;
+    text-align: start;    
+}
+
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+.text-formatation {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;    
+}
+
+.service-box-img {
+    width: 125px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.text {
+    margin: 20px auto;
+}

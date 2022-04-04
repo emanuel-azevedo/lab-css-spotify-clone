@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* * {
+    border: 1px solid red;
+} */
+
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;    
+}
+
+.nav-menu li {
+    display: inline;   
+}
+
+.nav-menu li a {    
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(66, 66, 66);   
+}
+
+
+.hero-image-landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/landing.jpg);
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero-text {
+    text-align: center;
+    position: relative ;
+    color: white;
+}
+
+.center-section{
+    text-align: center;   
+    text-decoration: underline;
+    text-decoration-color: #00B172; 
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+
+div h3 {
+    color: #00B172;
+}
+
+h3 p {
+    text-align: center;
+}
+
+div img {
+    width: 30%;
+    height: auto;
+}
+
+.background-color-green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00B172;    
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+}
+
+div h2 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* .spotify-icon-white {
+    width: 100px;
+    align-items: center;
+} */
+
+.spotify-app-kanye-west {    
+    width: 60%;
+    height: auto;
+}
