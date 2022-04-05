@@ -24,7 +24,9 @@ body {
 }
 
 .logo {
-    width: 150px;    
+    width: 150px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
 }
 
 .nav-menu li {
@@ -39,32 +41,47 @@ body {
 
 
 .hero-image-landing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/landing.jpg);
+    background-image: url("../images/landing.jpg");
     width: 100%;
-    height: auto;
-    
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    position: relative ;
+    position: relative;
+    width: 100%;
     color: white;
 }
 
 .center-section{
-    text-align: center;   
-    text-decoration: underline;
-    text-decoration-color: #00B172; 
+    text-align: center;    
+    margin: 20px 0px 50px 0px;
 }
 
-.main-flex {
+.center-section h2{
+    text-align: center;   
+    border-bottom: #00B172 solid;
+    margin: 0px;
+    display: inline;
+}
+
+.main-flex {    
     display: flex;
     flex-direction: row;
+    text-align: center;
     margin: 5px;
     padding: 5px;
 }
 
-div h3 {
+main div h3 {
     color: #00B172;
 }
 
@@ -73,7 +90,7 @@ h3 p {
 }
 
 div img {
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
@@ -87,14 +104,25 @@ div img {
     padding: 15px;
 }
 
+/* .spotify-icon-white {
+    background-image: url("../images/spotify-icon-white.png");
+    width: 5px;
+    height: 2vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+} */
+
 div h2 {
-    text-decoration: underline;
-    text-decoration-color: white;
+    border-bottom: white solid;
+    margin: 0px;
+    padding-bottom: 5px;
+    display: inline;
 }
 
 /* .spotify-icon-white {
-    width: 100px;
-    align-items: center;
+    width: 100px;    
 } */
 
 .spotify-app-kanye-west {    
