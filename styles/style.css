@@ -95,37 +95,35 @@ div img {
 }
 
 .background-color-green {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #00B172;    
-    color: white;
-    margin: 0px 10px 0px 10px;
-    padding: 15px;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center; 
 }
 
-/* .spotify-icon-white {
-    background-image: url("../images/spotify-icon-white.png");
-    width: 5px;
-    height: 2vh;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;    
-} */
-
-div h2 {
+section h2 {
+    display: inline;
+    margin: 0%;
     border-bottom: white solid;
     margin: 0px;
     padding-bottom: 5px;
     display: inline;
 }
 
-/* .spotify-icon-white {
-    width: 100px;    
-} */
+.div-footer {
+    color: white;
+    margin: 10px;
+    padding: 15px;
+}
 
-.spotify-app-kanye-west {    
-    width: 60%;
+.box-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.spotify-app-kanye-west { 
+    width: 75%;
     height: auto;
 }
